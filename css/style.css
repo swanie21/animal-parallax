@@ -1,0 +1,82 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  align-items: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+}
+
+img {
+  height: 100vh;
+  object-fit: cover;
+  width: 100vw;
+}
+
+p {
+  color: #111;
+  font-size: 30px;
+  left: 100px;
+  position: absolute;
+  top: 50px;
+}
+
+section:nth-child(2) p {
+  left: 80%;
+}
+
+section:nth-child(4) p {
+  color: blue;
+}
+
+section:nth-child(5) p {
+  color: #fff;
+}
+
+section:nth-of-type(2) {
+  background-image: url('../img/bunny.jpg');
+}
+
+section:nth-of-type(3) {
+  background-image: url('../img/gorilla.jpg');
+}
+
+section:nth-of-type(4) {
+  background-image: url('../img/cat-dog.jpg');
+}
+
+section:nth-of-type(5) {
+  background-image: url('../img/koala.jpg');
+}
+
+section:nth-of-type(6) {
+  background-image: url('../img/bulldog.jpg');
+}
+
+@media screen and (max-width: 1030px) {
+  section {
+    background-position:center;
+  }
+
+  section:nth-child(2) p {
+    left: 70%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  p {
+    position: static;
+    padding-bottom: 500px;
+  }
+}
