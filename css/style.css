@@ -38,7 +38,7 @@ section:nth-child(2) p {
 }
 
 section:nth-child(4) p {
-  color: #0b1263;
+  color: #3240e3;
 }
 
 section:nth-child(5) p {
@@ -66,6 +66,10 @@ section:nth-of-type(6) {
 }
 
 @media screen and (max-width: 1030px) {
+  section {
+    background-attachment: scroll;
+  }
+
   section:nth-child(2) p {
     left: 70%;
   }
