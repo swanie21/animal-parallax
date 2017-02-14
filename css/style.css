@@ -7,14 +7,11 @@ body {
 }
 
 section {
-  align-items: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
   height: 100vh;
-  justify-content: center;
   position: relative;
   width: 100vw;
 }
@@ -76,8 +73,13 @@ section:nth-of-type(6) {
 }
 
 @media screen and (max-width: 420px) {
+  section:nth-child(2) p {
+    left: 0%;
+  }
+
   p {
-    position: static;
-    padding-bottom: 500px;
+    left: 0;
+    text-align: center;
+    width: 100%;
   }
 }
