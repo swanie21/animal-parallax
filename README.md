@@ -24,3 +24,5 @@ section:nth-of-type(2) {
   background-image: url('../img/bunny.jpg');
 }
 ```
+
+[Click here for more info about parallax scrolling](https://medium.com/@kswanie21/the-simplicity-of-parallax-82ff7896e43#.1d0ye1dap)
